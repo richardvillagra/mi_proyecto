@@ -1,0 +1,32 @@
+/* GRID alineamiento */
+
+body{
+    font-family: sans-serif;
+    background-image: radial-gradient(circle, #b94bf8, #3a1957);
+    background-repeat: no-repeat;
+    color: #eee;
+    height: 100vh;
+}
+
+.grid-container{
+    display: grid;
+    grid-gap: 10px;
+    height: 80vh;
+    border: 3px solid yellowgreen;
+    grid-template-columns: repeat(3, 100px);
+    justify-content: stretch;
+    justify-items: start;
+    align-items: center;
+    align-content: space-between;
+    
+}
+
+.grid-item{
+    border: 1px solid;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+}
