@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Formulario con POST Procesado mediante otro archivo</h1>
+    <h1>Formulario de contacto</h1>
     <form action="recibir_exa.php" method="POST">
         Nombre: <input type="text" name="nombre">
         Apellido: <input type="text" name="apellido">
